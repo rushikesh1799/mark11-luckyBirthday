@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #f3dec9;
+    color: #ff5200;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.input-group {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+input,
+label {
+    display: block;
+    border-radius: 15px;
+}
+
+label {
+    padding: 0.75rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+input {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #00546c;
+    color: #FFF;
+    font-size: large;
+}
+
+#check-number {
+    display: block;
+    margin: auto;
+    margin-top: 2.5rem;
+    padding: 10px 16px;
+    border-radius: 15px;
+    background: transparent;
+    border: 2px solid #ff5200;
+    background-color: #eabeb1;
+    color: #00546c;
+    font-size: larger
+}
+
+#check-number:hover {
+    background-color: #00546c;
+    color: white;
+    border: 2px solid #FFFFFF;
+}
+
+#output-box {
+    display: block;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 60%;
+    }
+
+    body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    main {
+        width: 90%;
+    }
+
+    .input-group {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+    #output-box {
+        display: block;
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 1000;
+    }
+}
+
