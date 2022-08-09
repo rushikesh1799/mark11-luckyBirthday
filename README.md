@@ -1,2 +1,12 @@
 # mark11 luckyBirthday
- A web app to check If your Birthday Lucky with your lucky number?
+
+Description :  A website which checks whether your birthday is lucky or not by calculating if sum of digits in your birthdate is divisible by your lucky number.
+
+Tech Stack : HTML, CSS, Javascript
+
+## Image 
+<div align="center">
+<img src="https://raw.githubusercontent.com/rushikesh1799/mark10-cashRegister/main/images/cashRegister.png" width="90%"/>
+</div>
+
+You can see Live project [here](https://luckybirthdaywebapp.netlify.app/)
