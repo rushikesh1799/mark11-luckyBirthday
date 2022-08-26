@@ -5,6 +5,7 @@ body {
     color: #ff5200;
     font-family: 'Poppins', sans-serif;
     margin-top: 80px;
+    text-align: center;
 }
 
 input::-webkit-outer-spin-button,
@@ -14,13 +15,13 @@ input::-webkit-inner-spin-button {
 }
 
 h1 {
-    text-align: center;
     margin: 2rem;
     font-size: 3rem;
 }
 
 .container {
     width: 75%;
+    min-height: 50vh;
     margin: auto;
 }
 
@@ -88,6 +89,23 @@ input {
     text-align: center;
     font-size: 2rem;
     font-weight: 1000;
+}
+
+/* footer */
+
+.footer-text a {
+    text-decoration: none;
+    /* background-color: #00546c; */
+    border: 2px solid #ff5200;
+    padding: 3px;
+    border-radius: 5px;
+    color: #00546c;
+}
+
+.footer-text a:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid #FFFFFF;
 }
 
 @media screen and (max-width: 600px) {
