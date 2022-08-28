@@ -17,10 +17,16 @@ function compareValues(sum, luckyNumber) {
 function checkBirthDateIsLucky(e) {
     const dob = dateOfBirth.value
     const sum = calculateSum(dob)
-    if (sum && dob) {
-        compareValues(sum , Number(luckyNumber.value)) 
-    } else {
+
+    console.log(dob);
+    console.log(luckyNumber.value);
+
+    if (dob == 0 || luckyNumber.value == 0) {
         output.innerText = "Please enter both the required fields";
+    } else if (luckyNumber.value < 0) {
+        output.innerText = "Please enter the Positive Lucky Number";
+    } else if (sum && dob) {
+        compareValues(sum , Number(luckyNumber.value)) 
     }
     
 }
