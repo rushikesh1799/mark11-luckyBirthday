@@ -21,7 +21,7 @@ function checkBirthDateIsLucky(e) {
     console.log(dob);
     console.log(luckyNumber.value);
 
-    if (dob == 0 || luckyNumber.value == 0) {
+    if (dob == "" || luckyNumber.value == "") {
         output.innerText = "Please enter both the required fields";
     } else if (luckyNumber.value < 0) {
         output.innerText = "Please enter the Positive Lucky Number";
